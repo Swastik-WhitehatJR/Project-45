@@ -1,0 +1,20 @@
+GAMESTATE - 0,1,2
+
+PLAYERCOUNT - (2)
+
+POSITION{
+   BALL1{
+      X:
+      Y:  
+      isInPocket: false,
+   } 
+   ...  
+}
+
+PLAYER{
+   NAME{
+     X:
+     Y:
+     SCORE:
+  }
+}

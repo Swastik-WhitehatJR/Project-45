@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="shortcut icon" href="IMAGES/logo.png" type="image/x-icon">
+   
+   <title>Billards Game</title>
+   <link rel="stylesheet" href="CSS/preloader.css">
+   
+   <script src="LIBRARIES/p5.js"></script>
+   <script src="LIBRARIES/p5.play.js"></script>
+   <script src="LIBRARIES/p5.sound.min.js"></script>
+   <script src="LIBRARIES/p5.dom.min.js"></script>
+   <script src="LIBRARIES/matter.js"></script>
+   
+   <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+   
+   
+   <script src="JS/CLASSES/colour.js"></script>
+
+   <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+   <div class="loader" id="loader">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/preloader.js"></script>
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+   <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+         apiKey: "AIzaSyCa6pYmGzPSs-MI-JLnCUSY1ozhUjusAFw",
+         authDomain: "billards-game.firebaseapp.com",
+         databaseURL: "https://billards-game-default-rtdb.firebaseio.com",
+         projectId: "billards-game",
+         storageBucket: "billards-game.appspot.com",
+         messagingSenderId: "892691316446",
+         appId: "1:892691316446:web:96ee4c68f226b2677f8c4f"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const database = firebase.database()
+   </script>
+
+   <script src="JS/CLASSES/form.js"></script>
+   <script src="JS/CLASSES/wall.js"></script>
+   <script src="JS/CLASSES/ball.js"></script>
+   <script src="JS/CLASSES/player.js"></script>
+   <script src="JS/CLASSES/game.js"></script>
+   <script src="JS/CLASSES/pocket.js"></script>
+   <script src="JS/sketch.js"></script>
+</body>
+
+</html>

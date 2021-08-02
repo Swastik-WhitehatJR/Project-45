@@ -1,0 +1,56 @@
+{
+  "gameState" : 0,
+  "playerCount" : 0,
+  "position" : {
+    "ball_1" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_2" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_3" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_4" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_5" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+    "ball_6" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_7" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_8" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_9" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    },
+	  "ball_10" : {
+      "isInPocket" : false,
+      "x" : 200,
+      "y" : 200
+    }
+  }
+}
